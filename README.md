@@ -27,33 +27,6 @@ A complete Java Swing-based GUI application for managing job postings, internshi
 - **Data Storage**: Text files (CSV-like format)
 - **Architecture**: OOP with Service Layer pattern
 
-## Project Structure
-
-```
-src/
-├── entity/              # Data models
-│   ├── Student.java
-│   ├── Company.java
-│   ├── Job.java
-│   └── Application.java
-├── service/            # Business logic
-│   ├── StudentService.java
-│   ├── CompanyService.java
-│   ├── JobService.java
-│   ├── ApplicationService.java
-│   └── ResumeAnalyzer.java
-├── gui/                # Java Swing UI
-│   ├── HireHubGUI.java
-│   ├── LoginUI.java
-│   ├── StudentDashboard.java
-│   ├── CompanyDashboard.java
-│   ├── AdminDashboard.java
-│   └── ResumeAnalyzerDialog.java
-├── utils/              # Utilities
-│   └── FileHandler.java
-└── HireHubApp.java    # Console version entry
-```
-
 ## Building & Running
 
 ### Prerequisites
@@ -133,37 +106,4 @@ The application includes sample data with:
 4. Student confirms or cancels application
 5. Application submitted if confirmed
 
-### Data Persistence
-- Data saved to `data/` folder on exit
-- Data loaded automatically on startup
-- Files: students.txt, companies.txt, jobs.txt, applications.txt
 
-## Screenshots
-
-### Login Screen
-- Role selection (Student/Company/Admin)
-- Email and password fields
-- Registration option
-
-### Student Dashboard
-- Profile tab with edit option
-- Resume upload with file chooser
-- Job browser with apply functionality
-- Application tracker
-
-### Company Dashboard
-- Company profile
-- Job posting form
-- Applicant list with match scores
-- Resume analysis viewer
-
-### Admin Dashboard
-- Tabbed view of all data
-- Add sample data button
-- System overview
-
-## License
-This project is for educational purposes.
-
-## Author
-Hire Hub Team
